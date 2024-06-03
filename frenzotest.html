@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+       
+        section{
+            margin: 50px;
+            background-color: beige;
+            display: grid; 
+            grid-template-columns: 2fr 1fr;
+            box-shadow: 0px 0px 1px black;
+        }
+        .one{
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-content: space-between;   
+            position: relative;  
+           
+             
+        
+        }
+        span{
+                margin-top: 55px;
+                position: absolute;
+                height: 80%;
+                width: 100%;
+                border-right: 2px solid black; 
+                
+            }
+
+        .item{
+           
+            display: grid;
+            gap: 10px;
+            text-align: center;
+            height: 120px;
+            padding: 20px;
+
+            & h3{
+                font-size: larger;
+                text-align: left;
+                
+            }
+
+            & p{
+                font-size: larger;
+                border-radius: 5px;
+                text-align: left ;
+                padding: 15px 25px;
+                background-color: rgb(145, 230, 230);
+            }
+        }
+
+       
+    </style>
+</head>
+<body>
+   <section>
+   
+    <div class="one">
+
+        <div class=" item cnt1">
+            <h3>Principle Applicat's Tenure</h3>
+            <p>Darryl D'souza</p>
+        </div>
+
+        <div class=" item cnt2">
+            <h3>Principle Applicat's Tenure</h3>
+            <p>Darryl D'souza</p>
+        </div>
+
+        <div class="item cnt3">
+            <h3>Principle Applicat's Tenure</h3>
+            <p>Darryl D'souza</p>
+        </div>
+        
+        <div class="item cnt4">
+            <h3>Principle Applicat's Tenure</h3>
+            <p>Darryl D'souza</p>
+        </div>
+        
+        <div class="item cnt5">
+           <h3>Principle Applicat's Tenure</h3>
+            <p>Darryl D'souza</p>
+        </div>
+
+        <div class="item cnt6">
+           <h3>Principle Applicat's Tenure</h3>
+            <p>Darryl D'souza</p>
+        </div>
+
+        <span class="line"></span>
+        
+    </div>
+    
+    <div class="two">
+
+        <div class="divtoo">
+            <div class=" item cnt7">
+                <h3>Principle Applicat's Tenure</h3>
+                <p>Darryl D'souza</p>
+            </div>
+    
+            <div class=" item cnt8">
+                <h3>Principle Applicat's Tenure</h3>
+                <p>Darryl D'souza</p>
+            </div>
+    
+            <div class="item cnt9">
+                <h3>Principle Applicat's Tenure</h3>
+                <p>Darryl D'souza</p>
+            </div>
+        </div>
+        
+    </div>
+</section>
+</body>
+</html>
